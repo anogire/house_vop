@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.qqq {
+border: 1px solid white;
+}
 body {
   background-color:#242b33;
   font-family: 'Raleway', sans-serif;
@@ -105,7 +108,7 @@ body {
 }
 .link-logo,
 .link-nav,
-.link-flat,
+.link-mouse,
 .link-map,
 .link-phone,
 .link-ft {
@@ -127,7 +130,7 @@ body {
 }
 .section-title {
   padding-top: 194px;
-  padding-bottom: 74px;
+  padding-bottom: 70px;
   text-align: center;
   background-image: url("../img/rectangle.jpg");
   background-position: center bottom;
@@ -199,10 +202,10 @@ body {
 .nav-main li {
   display: inline-block;
 }
-.nav-main:first-child {
+.nav-main li:first-child {
   margin-left: -18px;
 }
-.nav-main:last-child {
+.nav-main li:last-child {
   margin-right: -18px;
 }
 .link-nav {
@@ -212,28 +215,39 @@ body {
 .font-contacts {
   font-size: 18px;
   line-height: 21px;
+  padding-left: 10px;
   vertical-align: top;
 }
-.link-flat {
-  display: block;
-  padding-top: 85px;
-  padding-bottom: 195px;
+.link-mouse {
+  display: block; 
+  margin-bottom: 110px;
+  padding: 85px;
+  font-size: 40px;
+  color: #d4c17f;
 }
 .link-map {
-  display: block;
   padding-right: 35px;
-  text-align: right;
+  padding-left: 5px;
+  font-size: 21px;
+  color: #fff;
 }
 .link-phone {
-  display: block;
+  padding-right: 5px;
   padding-left: 35px;
-  text-align: left;
+  font-size: 21px;
+  color: #fff;
 }
 .nav-title {
   font-size: 0;
 }
 .nav-title li{
   display: inline-block;
+}
+.nav-title li:first-child {
+  text-align: right;
+}
+.nav-title li:last-child {
+  text-align: left;
 }
 .img-contacts {
   margin-right: 15px;
@@ -295,7 +309,7 @@ body {
 .font-paragraph {
   font-size: 16px;
   line-height: 24px;
-  margin-top: 45px;
+  margin-top: 40px;
   margin-bottom: 0;
 }
 .input-spec {
@@ -314,10 +328,7 @@ body {
   margin: auto;
 }
 .play-button {
-  border: 0;
-  padding: 0;
   position: absolute;
-  margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
@@ -326,6 +337,9 @@ body {
   background-color: rgba(0, 0, 0, 0);
   width: 100px;
   height: 100px;
+  border: 0;
+  margin: auto;
+  padding: 0;
   z-index: 1;
 }
 .play-button:hover,
@@ -407,7 +421,17 @@ body {
   padding-top: 12px;
   padding-bottom: 5px;
   padding-left: 15px;
-  display: block; 
+  display: block;
+}
+.font-fb {
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+.font-vk {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
 }
 .font-email {
   font-size: 14px;
@@ -421,10 +445,7 @@ body {
 }
 .nav-social-links li {
   display: inline-block;
-}
-/* новое  */
-.qqq {
-  border: 1px solid white;
+  vertical-align: top;
 }
 .font-roman-num {
   font-family: 'Playfair Display', serif;
