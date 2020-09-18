@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-.qqq {
-border: 1px solid white;
-}
 body {
   background-color:#242b33;
   font-family: 'Raleway', sans-serif;
@@ -29,7 +26,7 @@ body {
   height: 0;
   clear: both;
 }
-.col-left {
+.col {
   float: left;
   padding-right: 15px;
   padding-left: 15px;
